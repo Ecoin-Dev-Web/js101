@@ -53,7 +53,7 @@ var articles = [
 				["my new title3","img/003.png","boduy of new article 3"]
 	]
 
-console.log(articles[1][1])
+/*console.log(articles[1][1])
 
 console.log(typeof articles)
 
@@ -75,7 +75,7 @@ console.log(student2)
 
 document.writeln("<h3>You Name is :"+ student2.nom+"</h3>")
 
-
+*/
 
 //operation
 //+ - * / %  ++  --
@@ -92,7 +92,7 @@ console.log(x)
 
 y = y + 1  // y++  incrimentation
 y = y - 1  // y--  incrimentation
-  console.log(y)
+ /* console.log(y)
 
   var a = 12
   console.log(a--)  // 12 pre
@@ -100,7 +100,7 @@ y = y - 1  // y--  incrimentation
   console.log(--a) //10
  console.log("================")
   var c1 = 15
-  res = ++c1 +9
+  res = ++c1 +9*/
   // console.log(c1) //16
   // console.log(res)  // 25 
 
@@ -114,7 +114,7 @@ y = y - 1  // y--  incrimentation
   //console.log(a!=b)  // false
 
    var isAdmin = true
-   console.log(!isAdmin)
+  //console.log(!isAdmin)
 
    //relation
    //console.log(a > b  c<2)
@@ -145,7 +145,7 @@ y = y - 1  // y--  incrimentation
 console.log(nom)
 */
 //cal  + - * /
-
+/*
 var num1 = prompt("Enter Num1")
 num1 = parseInt(num1)
 var num2 = prompt("Enter Num2")
@@ -162,3 +162,27 @@ if (op == "+") {
  }else{
  	console.log('No operation')
  }
+
+
+var x = 45
+
+x = 25*/
+
+const USER = "admin"
+const PASSWORD = "123456"
+
+var u = prompt("please enter UserName")
+var p = prompt("please enter Password")
+
+if (u==USER && p == PASSWORD) {
+	document.write('<div class="ok">Welcom to My admin</div>')
+}else{
+	document.write('<div class="error">Error</div>')
+}
+
+
+// shot if 
+// switch
+// loop while do while for for in 
+// foreach  
+//function

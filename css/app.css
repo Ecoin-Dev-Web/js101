@@ -3,3 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.ok {
+	padding: 7px;
+	text-align: center;
+	width: 50%;
+	font-size:60% ;
+	margin: auto;
+	color: #fff;
+	background-color: lightgreen;
+}
+
+.error {
+	padding: 7px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-size:60% ;
+	color: #fff;
+	background-color:red;
+}
