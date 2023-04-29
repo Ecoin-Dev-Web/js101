@@ -265,3 +265,6 @@ do{
 
 var str = "Ecoin"
 console.log(str.length)
+
+var t= ["php","kotlin","java","rust","go","python"]
+console.log(t.length)
