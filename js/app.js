@@ -168,7 +168,7 @@ var x = 45
 
 x = 25*/
 
-const USER = "admin"
+/*const USER = "admin"
 const PASSWORD = "123456"
 
 var u = prompt("please enter UserName")
@@ -179,10 +179,47 @@ if (u==USER && p == PASSWORD) {
 }else{
 	document.write('<div class="error">Error</div>')
 }
-
+*/
 
 // shot if 
 // switch
 // loop while do while for for in 
 // foreach  
 //function
+//var l = prompt("please first char  for var")
+var lang 
+
+/*   if(l == "$")
+   	lang = "php"
+   else lang = "javascript"
+
+*/
+
+/*var lang = (l=="$")? "php":"javascript"
+   console.log(lang)
+*/
+
+
+var num1 = prompt("Enter Num1")
+num1 = parseInt(num1)
+var num2 = prompt("Enter Num2")
+num2 = parseInt(num2)
+var op = prompt("Enter op + - * /")
+
+switch (op) {
+	case "+":
+		console.log(num1 + num2)
+		break;
+	case "-":
+		console.log(num1 - num2)
+		break;
+	case "*":
+		console.log(num1 * num2)
+		break;
+	case "/":
+		console.log(num1 / num2)
+		break;			
+	default:
+		console.log('No operation')
+		break;
+}
