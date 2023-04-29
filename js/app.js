@@ -282,7 +282,7 @@ while (j<t.length) {
 */
 
 
-for(var i = 0; i <= 10; i++){
+/*for(var i = 0; i <= 10; i++){
 	console.log(i)
 }
 
@@ -293,4 +293,15 @@ for(; ;){
 	}
 	console.log(i)
 	 i++
+}*/
+
+var t= ["php","kotlin","java","rust","go","python"]
+
+/*for (v in t) {
+	console.log(t[v])
+}*/
+
+
+for (s of t) {
+	console.log(s)
 }
