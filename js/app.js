@@ -306,7 +306,31 @@ var t= ["php","kotlin","java","rust","go","python"]
 	console.log(ecoin)
 }*/
 
-[45,36,9,8,78,25,12]
+//[45,36,9,8,78,25,12]
 
 //pair
 //impair
+var t = new Array()
+var pair = new Array()
+var impair = new Array()
+var i = 0
+var cpt = parseInt(prompt("please enter num of Array :"))
+do{
+   t[i] = parseInt(prompt("please enter num  :"))
+   i++
+}while(i<=cpt-1)
+
+console.log(t)
+var k = 0,m = 0
+for(var j = 0; j < t.length; j++){
+	   if (t[j]%2==0) {
+	   	pair[k] = t[j]
+	   	k++
+	   }else {
+	   impair[m] = t[j]
+	   	m++
+	   }
+}
+
+console.log(pair)
+console.log(impair)
