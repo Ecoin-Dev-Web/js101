@@ -224,7 +224,7 @@ switch (op) {
 		break;
 }*/
 
-var color = prompt("choice your color ?")
+/*var color = prompt("choice your color ?")
 
 switch (color) {
 	case "green":
@@ -237,5 +237,31 @@ switch (color) {
 		document.write("<body></body>")
 		break;
 }
+*/
 
 
+/*var i = 100
+
+while (i<=100) {
+	console.log(i)
+i++
+}
+
+
+
+var j = 100
+
+while (j>=1) {
+	console.log(j)
+j--
+}*/
+
+/*var k = 21
+do{
+ console.log(k)
+ k++
+}while(k<=20)
+*/
+
+var str = "Ecoin"
+console.log(str.length)
