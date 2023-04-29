@@ -302,6 +302,11 @@ var t= ["php","kotlin","java","rust","go","python"]
 }*/
 
 
-for (s of t) {
-	console.log(s)
-}
+/*for (ecoin of t) {
+	console.log(ecoin)
+}*/
+
+[45,36,9,8,78,25,12]
+
+//pair
+//impair
