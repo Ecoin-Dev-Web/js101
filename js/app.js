@@ -263,7 +263,7 @@ do{
 }while(k<=20)
 */
 
-var str = "Ecoin"
+/*var str = "Ecoin"
 console.log(str.length)
 
 var i = 0
@@ -278,4 +278,19 @@ var j = 0
 while (j<t.length) {
 	console.log(t[j]+"====> "+t[j].length)
 	j++
+}
+*/
+
+
+for(var i = 0; i <= 10; i++){
+	console.log(i)
+}
+
+var i = 0
+for(; ;){
+	if (i > 10) {
+		break
+	}
+	console.log(i)
+	 i++
 }
