@@ -266,5 +266,16 @@ do{
 var str = "Ecoin"
 console.log(str.length)
 
+var i = 0
+while (i<str.length) {
+	console.log(str[i])
+	i++
+}
+
 var t= ["php","kotlin","java","rust","go","python"]
 console.log(t.length)
+var j = 0
+while (j<t.length) {
+	console.log(t[j]+"====> "+t[j].length)
+	j++
+}
