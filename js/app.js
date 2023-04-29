@@ -200,7 +200,7 @@ var lang
 */
 
 
-var num1 = prompt("Enter Num1")
+/*var num1 = prompt("Enter Num1")
 num1 = parseInt(num1)
 var num2 = prompt("Enter Num2")
 num2 = parseInt(num2)
@@ -222,4 +222,20 @@ switch (op) {
 	default:
 		console.log('No operation')
 		break;
+}*/
+
+var color = prompt("choice your color ?")
+
+switch (color) {
+	case "green":
+		document.write("<body class='green'></body>")
+		break;
+	case "red":
+		document.write("<body class='red'></body>")
+		break;
+	default:
+		document.write("<body></body>")
+		break;
 }
+
+
