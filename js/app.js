@@ -310,7 +310,7 @@ var t= ["php","kotlin","java","rust","go","python"]
 
 //pair
 //impair
-var t = new Array()
+/*var t = new Array()
 var pair = new Array()
 var impair = new Array()
 var i = 0
@@ -333,4 +333,27 @@ for(var j = 0; j < t.length; j++){
 }
 
 console.log(pair)
-console.log(impair)
+console.log(impair)*/
+
+// number prime
+
+//  5 2 3 4^prime
+// 6 2
+
+var num = parseInt(prompt("please enter num  :"))
+
+var isPrime = true;
+
+//15   2  -----> 14
+// 2 3 4 5 6 7 8 9 10 11 12 13 14
+// 7 5 3 3 2 1 1
+
+for(i = 2 ;i<=(num/2);i++){
+	if(num%i==0){
+		isPrime = false
+		break
+	}
+}
+if(isPrime) 
+	console.log(`${num} is Prime`)
+
