@@ -405,14 +405,14 @@ console.log(np)*/
 	    }
 	  }
 console.log(count)*/
-  numbers = [1, 1, 3, 1, 4, 5, 6, 1, 3, 8, 9, 10, 11, 1, 12, 1]
+  numbers = [1, 1, 3, 1, 4, 5, 6, 1, 3, 8, 9, 10, 11, 1, 12, 1];
   //dup       0  1 2 3
  //            1  3
 
              //  tour array T
              //  dup if ti == ti+1    ti in array dup  1 3
 
- var dup = new Array()
+/* var dup = new Array()
  var count = 0;
  var k = 0,d= 0
 for(var i = 0; i < numbers.length; i++){
@@ -430,10 +430,13 @@ for(var i = 0; i < numbers.length; i++){
     	console.log("duplicated")
     }
 	
+}*/
+
+
+
+function ecoin(a,b) {
+console.log(a + b);
+
 }
 
-
-
-
-
-
+ecoin(45,3);
