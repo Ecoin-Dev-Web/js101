@@ -359,8 +359,8 @@ if(isPrime)
 */
 
 
-var t = new Array()
-var p = new Array()
+/*var t  = new Array()
+var p  = new Array()
 var np = new Array()
 var i = 0
 
@@ -378,9 +378,9 @@ var isPrime = true;
 	if(t[j]%i==0){
 		isPrime = false
 		break
-	}
+	} //end if
 	
-}
+	} //end for
 if (isPrime) {
 		p[k] = t[j]
 		k++
@@ -392,5 +392,48 @@ if (isPrime) {
 }
 
 console.log(p)
-console.log(np)
+console.log(np)*/
+
+ var numbers ,x
+ numbers = [1, 1, 3, 1, 4, 5, 6, 1, 7, 8, 9, 10, 11, 1, 12, 1]
+ x = 1
+
+/*  var count = 0;
+	  for (var i = 0; i < numbers.length; i++) {
+	    if (numbers[i] == x){
+	      count++
+	    }
+	  }
+console.log(count)*/
+  numbers = [1, 1, 3, 1, 4, 5, 6, 1, 3, 8, 9, 10, 11, 1, 12, 1]
+  //dup       0  1 2 3
+ //            1  3
+
+             //  tour array T
+             //  dup if ti == ti+1    ti in array dup  1 3
+
+ var dup = new Array()
+ var count = 0;
+ var k = 0,d= 0
+for(var i = 0; i < numbers.length; i++){
+	if(t[i]==t[k+1]){
+      dup[d] = t[i]
+      k++;d++
+	}
+      for(var j = 0; j < ; j++){
+      	   
+      }
+        if (t[i]==t[j]) {
+        	// statement
+        }
+    if(conter>1){
+    	console.log("duplicated")
+    }
+	
+}
+
+
+
+
+
 
