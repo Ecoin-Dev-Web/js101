@@ -340,15 +340,15 @@ console.log(impair)*/
 //  5 2 3 4^prime
 // 6 2
 
-var num = parseInt(prompt("please enter num  :"))
+/*var num = parseInt(prompt("please enter num  :"))
 
-var isPrime = true;
+var isPrime = true;*/
 
 //15   2  -----> 14
 // 2 3 4 5 6 7 8 9 10 11 12 13 14
 // 7 5 3 3 2 1 1
 
-for(i = 2 ;i<=(num/2);i++){
+/*for(i = 2 ;i<=(num/2);i++){
 	if(num%i==0){
 		isPrime = false
 		break
@@ -356,4 +356,41 @@ for(i = 2 ;i<=(num/2);i++){
 }
 if(isPrime) 
 	console.log(`${num} is Prime`)
+*/
+
+
+var t = new Array()
+var p = new Array()
+var np = new Array()
+var i = 0
+
+var cpt = parseInt(prompt("please enter num of Array :"))
+do{
+   t[i] = parseInt(prompt("please enter num  :"))
+   i++
+}while(i<=cpt-1)
+
+// 15 13 36 5 9 7
+var k = 0,m = 0
+for (var j = 0; j < t.length; j++) {
+var isPrime = true;
+	for(i = 2 ;i<=(t[j]/2);i++){
+	if(t[j]%i==0){
+		isPrime = false
+		break
+	}
+	
+}
+if (isPrime) {
+		p[k] = t[j]
+		k++
+	}else {
+		np[m] = t[j]
+		m++
+	}
+	
+}
+
+console.log(p)
+console.log(np)
 
