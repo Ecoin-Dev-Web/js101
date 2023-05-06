@@ -1,4 +1,4 @@
-function ecoin(a,b) {
+/*function ecoin(a,b) {
 return a + b
 
 }
@@ -28,7 +28,7 @@ var welcom =  function (a,b, op){
 			break;
 	}
 }
-
+*/
 //console.log(typeof welcom)
 /*console.log(welcom(25,6,"+"))
 console.log(welcom(25,6,"-"))
@@ -52,7 +52,7 @@ var c = function () {
 }
 ecoin2(14,c())
 */
-function test(t,fn){
+/*function test(t,fn){
 	return fn(t)
 }
 
@@ -65,4 +65,46 @@ test(tab,function (tab) {
          tab2[i] = tab[i]*2
 	}
 	console.log(tab2)
-})
+})*/
+
+
+var student = new Object()
+
+student = {
+	rest:0,
+	note:{},
+	sum:0,
+	moyen : function () {
+		for (notes in this.note) {
+			this.rest = this.rest + this.note[notes][0]*this.note[notes][1]
+			this.sum = this.sum +this.note[notes][1]
+		}
+		return this.rest/this.sum
+	}
+}
+var notes_modules = new Object()
+var numModules  = parseInt(prompt("please enter num of modules :"))
+var modules  = new Array()
+var notes  = new Array()
+var coefs  = new Array()
+var i = 0
+do{
+    modules[i] = prompt("please enter module num :"+i)
+    notes[i] = parseInt(prompt("please enter note  :"))
+    coefs[i] = parseInt(prompt("please enter coef  :"))
+
+   i++
+}while(i<=numModules-1)
+
+for(var i = 0 ; i < modules.length; i++){
+	notes_modules[modules[i]] = [notes[i],coefs[i]]
+}
+ 
+
+console.log(notes_modules)
+
+student.note = notes_modules
+console.log(student.moyen())
+
+//[5,3,6,12,45,36]
+
