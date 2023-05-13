@@ -33,3 +33,21 @@ mycl[0].style.backgroundColor = 'red'
 mycl[0].onclick = function () {
 	alert("fdsmlkqjfmlksjfmlk")
 }
+
+
+var btn = document.getElementsByTagName('button')
+var nom = document.getElementById("name")
+var spanTx = document.getElementById("tx")
+btn[0].onclick = function () {
+	
+	console.log(nom.value)
+}
+
+//num1 = parseInt(nom.value)
+nom.onkeyup = function () {
+	
+	console.log(nom.value)
+	console.log(nom.value.length)
+	spanTx.innerText = nom.value.length
+}
+
