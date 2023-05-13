@@ -29,3 +29,15 @@ mylink.setAttribute("ecoin", "Web")
 mylink.setAttribute("href", "https://www.google.com")
 
 mylink.removeAttribute("ecoin")
+
+console.log(mylink.getAttribute("href"))
+
+bx.style.backgroundColor="blue"
+bx.style.color = "#fff"
+
+mycl[0].style.backgroundColor = 'red'
+
+
+mycl[0].onclick = function () {
+	alert("fdsmlkqjfmlksjfmlk")
+}
