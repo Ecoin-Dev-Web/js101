@@ -14,24 +14,16 @@ console.log(mytitle)
 var parent  = mytitle.parentNode
 console.log(parent)
 parent.removeChild(mytitle)
-
-
 var myNode = document.createElement("h4")
-
 myNode.innerText = "This My new Node"
-
 bx.appendChild(myNode)
 
 // attribute
-
 var mylink = document.getElementById("gl")
 mylink.setAttribute("ecoin", "Web")
 mylink.setAttribute("href", "https://www.google.com")
-
 mylink.removeAttribute("ecoin")
-
 console.log(mylink.getAttribute("href"))
-
 bx.style.backgroundColor="blue"
 bx.style.color = "#fff"
 
