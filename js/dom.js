@@ -51,3 +51,6 @@ nom.onkeyup = function () {
 	spanTx.innerText = nom.value.length
 }
 
+
+
+

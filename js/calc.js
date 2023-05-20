@@ -21,3 +21,7 @@ btn[3].onclick = function () {
 	 result.innerText = parseInt(num[0].value) / parseInt(num[1].value) 
 	else alert("Div by Zero")
 }
+
+
+//var s = document.querySelector("button")
+///var s = document.querySelectorAll("button")
