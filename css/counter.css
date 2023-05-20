@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button{
+	padding: 7px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#plus{
+	background-color: green;
+}
+
+#minus{
+	background-color: red;
+}
+
+.box{
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	font-size: 48px;
+	font-weight: bolder;
+	color: #fff;
+	text-align: center;
+	background-color: red;
+}
