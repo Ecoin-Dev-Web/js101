@@ -17,7 +17,7 @@ body{
 	margin: auto;
 }
 
-#wilaya{
+select{
 	padding: 7px;
 	width: 80%;
 	margin: auto;
@@ -31,4 +31,9 @@ body{
 	color: red;
 	background-color: #fff;
 	font-weight: bold;
+}
+
+#commune{
+	margin-top: 15px;
+	display: none;
 }

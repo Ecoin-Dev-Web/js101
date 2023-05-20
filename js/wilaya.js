@@ -11,12 +11,14 @@ var com = {
 w.onchange = function () {
 	//alert(list[w.value])
 	//document.getElementById("box2").innerText = list[w.value]
-	document.getElementById("box2").innerText = ""
+	document.getElementById("commune").innerText = ""
+	document.getElementById("commune").style.display = 'block'
 	for (var i = 0 ;i<com[w.value].length;i++) {
-		var el = document.createElement('li')
+		var el = document.createElement('option')
 	el.innerText = com[w.value][i]
+	el.value = i
 	
-	document.getElementById("box2").appendChild(el)
+	document.getElementById("commune").appendChild(el)
 	}
 
 	
