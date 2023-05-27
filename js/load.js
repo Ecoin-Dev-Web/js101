@@ -7,7 +7,5 @@ bx.style.backgroundColor = 'blue'
 bx.style.color = '#fff'
 bx.style.padding = '7px'
 
-
-
 }
 
